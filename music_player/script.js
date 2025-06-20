@@ -39,33 +39,33 @@
     // Music List (reduced to 5 songs, keeping 1 and 2, with image links removed for 3, 4, 5)
     const music_list = [
       {
-        path: "Finding Her - Kushagra song -1.mp3",
+        path: "song/Finding Her - Kushagra song -1.mp3",
         name: "Finding Her",
         artist: "Kushagra",
         img: "data:image/jpeg;base64,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"
       },
       {
-        path: "Tum se Hi - Mithun Sharma song -2.mp3",
+        path: "song/Tum se Hi - Mithun Sharma song -2.mp3",
         name: "Tum se hi",
         artist: "Mithun Sharma",
-        img: "https://th.bing.com/th/id/OIP.EwbGHPbMmJ6hV44hKNBRWAHaEH?w=326&h=181&c=7&r=0&o=7&pid=1.7&rm=3"
+        img: "image/Tum se Hi img.png"
       },
       {
-        path: "Tu hai Kahan - Raffey song -3.mp3",
+        path: "song/Tu hai Kahan - Raffey song -3.mp3",
         name: "Tu hai Kahan",
         artist: "Raffey - Usama - Ahad",
-        img: "https://th.bing.com/th/id/OIP.wKDZ7bVI5EMsiaUAMUSv-gHaHa?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3" 
+        img: "image/Tu hai kahan img.png" 
       },
       {
-        path: "imgs_audio/4.mp3",
-        name: "On The Floor",
-        artist: "Jennifer Lopez",
+        path: "song/Shikayat - Raffey - Usama - Ahad -4.mp3",
+        name: "Shikayat",
+        artist: "Raffey - Usama - Ahad",
         img: "" // Image removed as per request
       },
       {
-        path: "imgs_audio/5.mp3",
-        name: "Shape of You",
-        artist: "Ed Sheeran",
+        path: "song/Iraaday - Abdul Hannan & Rovalio song -5.mp3",
+        name: "Iraaday",
+        artist: "Abdul Hannan & Rovalio",
         img: "" // Image removed as per request
       }
     ];
